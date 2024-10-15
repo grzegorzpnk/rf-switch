@@ -7,7 +7,7 @@ func main() {
 	config := config.GetConfiguration()
 
 	// Example: Find channels for multiple RAN providers and Shieldboxes
-	ranProviders := []string{"RADISYS"}
+	ranProviders := []string{"RADISYS", "NOKIA"}
 	shieldboxes := []string{"SHIELDBOX_4"}
 
 	channels, managementSwitches := findChannels(config, ranProviders, shieldboxes)

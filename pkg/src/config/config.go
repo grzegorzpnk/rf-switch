@@ -6,16 +6,7 @@ import (
 	"os"
 )
 
-//
-//// Shieldbox struct representing each shieldbox configuration
-//type Shieldbox struct {
-//	AMARISOFT_CALLBOX_ULTIMATE []int  `yaml:"AMARISOFT_CALLBOX_ULTIMATE"`
-//	NOKIA                      []int  `yaml:"NOKIA"`
-//	RADISYS                     []int  `yaml:"RADISYS"`
-//	ManagementSwitch           string `yaml:"ManagementSwitch"`
-//}
-
-// Shieldbox struct representing each shieldbox configuration
+// Shieldbox struct representing each shieldbox and available RAN providers
 type Shieldbox struct {
 	AMARISOFT_CALLBOX_ULTIMATE []int
 	NOKIA                      []int
@@ -23,14 +14,14 @@ type Shieldbox struct {
 	ManagementSwitch           string
 }
 
-// Config struct to hold all shieldboxes from YAML
+// Config struct to hold all shieldboxes
 type Config struct {
-	SHIELDBOX_1        Shieldbox `yaml:"SHIELDBOX_1"`
-	SHIELDBOX_2        Shieldbox `yaml:"SHIELDBOX_2"`
-	SHIELDBOX_3        Shieldbox `yaml:"SHIELDBOX_3"`
-	SHIELDBOX_4        Shieldbox `yaml:"SHIELDBOX_4"`
-	SHIELDBOX_5        Shieldbox `yaml:"SHIELDBOX_5"`
-	AMARISOFT_SIMBOX_1 Shieldbox `yaml:"AMARISOFT_SIMBOX_1"`
+	SHIELDBOX_1        Shieldbox
+	SHIELDBOX_2        Shieldbox
+	SHIELDBOX_3        Shieldbox
+	SHIELDBOX_4        Shieldbox
+	SHIELDBOX_5        Shieldbox
+	AMARISOFT_SIMBOX_1 Shieldbox
 }
 
 var gConfig *Config
