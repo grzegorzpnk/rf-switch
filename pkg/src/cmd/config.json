@@ -1,0 +1,38 @@
+{
+  "SHIELDBOX_1": {
+    "AMARISOFT_CALLBOX_ULTIMATE": [1, 2, 9, 10, 17, 18, 25, 26],
+    "NOKIA": [3, 4, 11, 12, 19, 20, 27, 28],
+    "RADISYS": [5, 6, 13, 14, 21, 22, 29, 30],
+    "ManagementSwitch": "RF_1"
+  },
+  "SHIELDBOX_2": {
+    "AMARISOFT_CALLBOX_ULTIMATE": [33, 34, 41, 42, 49, 50, 57, 58],
+    "NOKIA": [35, 36, 43, 44, 51, 52, 59, 60],
+    "RADISYS": [37, 38, 45, 46, 53, 54, 61, 62],
+    "ManagementSwitch": "RF_1"
+  },
+  "SHIELDBOX_3": {
+    "AMARISOFT_CALLBOX_ULTIMATE": [1, 2, 9, 10, 17, 18, 25, 26],
+    "NOKIA": [3, 4, 11, 12, 19, 20, 27, 28],
+    "RADISYS": [5, 6, 13, 14, 21, 22, 29, 30],
+    "ManagementSwitch": "RF_2"
+  },
+  "SHIELDBOX_4": {
+    "AMARISOFT_CALLBOX_ULTIMATE": [33, 34, 41, 42, 49, 50, 57, 58],
+    "NOKIA": [35, 36, 43, 44, 51, 52, 59, 60],
+    "RADISYS": [37, 38, 45, 46, 53, 54, 61, 62],
+    "ManagementSwitch": "RF_2"
+  },
+  "SHIELDBOX_5": {
+    "AMARISOFT_CALLBOX_ULTIMATE": [1, 2, 9, 10, 17, 18, 25, 26],
+    "NOKIA": [3, 4, 11, 12, 19, 20, 27, 28],
+    "RADISYS": [5, 6, 13, 14, 21, 22, 29, 30],
+    "ManagementSwitch": "RF_3"
+  },
+  "AMARISOFT_SIMBOX_1": {
+    "AMARISOFT_CALLBOX_ULTIMATE": [1, 2, 9, 10, 17, 18, 25, 26, 33, 34, 41, 42, 49, 50, 57, 58],
+    "NOKIA": [3, 4, 11, 12, 19, 20, 27, 28, 35, 36, 43, 44, 51, 52, 59, 60],
+    "RADISYS": [5, 6, 13, 14, 21, 22, 29, 30, 37, 38, 45, 46, 53, 54, 61, 62],
+    "ManagementSwitch": "RF_4"
+  }
+}
